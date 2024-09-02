@@ -26,8 +26,8 @@
  ******************************************************************************/
 void ad5940int_handler (uint8_t intNo) {
   app_assert(intNo == 0);
-  // ucInterrupted = 1;
-  printf("Interrupt captured!!\n");
+  ucInterrupted = 1;
+  GPIO_IntClear(1 << 0);
 }
 
 void ad5940int_init() {

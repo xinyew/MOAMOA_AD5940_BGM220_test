@@ -23,7 +23,7 @@ Analog Devices Software License Agreement.
 
 #define SYSTICK_MAXCOUNT ((1L<<24)-1) /* we use Systick to complete function Delay10uS(). This value only applies to ADICUP3029 board. */
 #define SYSTICK_CLKFREQ   26000000L   /* Systick clock frequency in Hz. This only appies to ADICUP3029 board */
-volatile static uint32_t ucInterrupted = 0;       /* Flag to indicate interrupt occurred */
+volatile uint32_t ucInterrupted = 0;       /* Flag to indicate interrupt occurred */
 
 #define SL_EMLIB_GPIO_INIT_AD5940_CS_PORT SL_SPIDRV_EXP_CS_PORT
 #define SL_EMLIB_GPIO_INIT_AD5940_CS_PIN SL_SPIDRV_EXP_CS_PIN

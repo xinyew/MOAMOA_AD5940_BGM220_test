@@ -17,7 +17,9 @@
 
 #ifndef SPIDRV_BAREMETAL_H
 #define SPIDRV_BAREMETAL_H
+#include <stdint.h>
 
+extern volatile uint32_t ucInterrupted;
 /***************************************************************************//**
  * Initialize example
  ******************************************************************************/

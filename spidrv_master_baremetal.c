@@ -82,13 +82,14 @@ void spidrv_app_init(void)
  ******************************************************************************/
 void spidrv_app_process_action(void)
 {
-  // Delay to allow slave to start
-  sl_sleeptimer_delay_millisecond(5000);
-  sprintf(tx_buffer, "ping %03d", counter);
-  counter++;
-  printf("Sending %s to slave...\r\n", tx_buffer);
-  // transfer_complete = false;
-  // while (!transfer_complete) ;
-  AD5940_ReadWriteNBytes(tx_buffer, rx_buffer, APP_BUFFER_SIZE);
-  printf("Got message from slave: %s\r\n", rx_buffer);
+  // // Delay to allow slave to start
+  // sl_sleeptimer_delay_millisecond(5000);
+  // sprintf(tx_buffer, "ping %03d", counter);
+  // counter++;
+  // printf("Sending %s to slave...\r\n", tx_buffer);
+  // // transfer_complete = false;
+  // // while (!transfer_complete) ;
+  // AD5940_ReadWriteNBytes(tx_buffer, rx_buffer, APP_BUFFER_SIZE);
+  // printf("Got message from slave: %s\r\n", rx_buffer);
+  AD5940_Main();
 }

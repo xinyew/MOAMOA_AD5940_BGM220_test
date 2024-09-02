@@ -1,0 +1,842 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineSystem.cmake:199 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Darwin - 23.6.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 12.2.1 20221205
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-UVtYgZ"
+      binary: "/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-UVtYgZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-UVtYgZ
+        
+        Run Build Command(s):/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/ninja/ninja -v cmTC_ddc57 && [1/2] "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-gcc" -DCMAKE_INTDIR=\\"Debug\\"  -g -std=c17   -v -o CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.obj -c /usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_ddc57.dir/Debug/'
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1 -quiet -v -iprefix /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ddc57.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -std=c17 -version -o /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//ccNXIVke.s
+        GNU C17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"
+        ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: f16b400e9c54daebd0b138d4d9878bc8
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_ddc57.dir/Debug/'
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.obj /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//ccNXIVke.s
+        GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210
+        COMPILER_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/local/Cellar/cmake/3.26.4/bin/cmake -E rm -f Debug/libcmTC_ddc57.a && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-ar" qc Debug/libcmTC_ddc57.a  CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.obj && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-gcc-ranlib" Debug/libcmTC_ddc57.a && /usr/local/Cellar/cmake/3.26.4/bin/cmake -E touch Debug/libcmTC_ddc57.a && :
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include]
+        implicit include dirs: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include-fixed;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-gcc|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-UVtYgZ]
+        ignore line: []
+        ignore line: [Run Build Command(s):/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/ninja/ninja -v cmTC_ddc57 && [1/2] "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-gcc" -DCMAKE_INTDIR=\\"Debug\\"  -g -std=c17   -v -o CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.obj -c /usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-gcc]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_ddc57.dir/Debug/']
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1 -quiet -v -iprefix /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ddc57.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -std=c17 -version -o /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//ccNXIVke.s]
+        ignore line: [GNU C17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: f16b400e9c54daebd0b138d4d9878bc8]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_ddc57.dir/Debug/']
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.obj /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//ccNXIVke.s]
+        ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210]
+        ignore line: [COMPILER_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/local/Cellar/cmake/3.26.4/bin/cmake -E rm -f Debug/libcmTC_ddc57.a && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-ar" qc Debug/libcmTC_ddc57.a  CMakeFiles/cmTC_ddc57.dir/Debug/CMakeCCompilerABI.c.obj && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-gcc-ranlib" Debug/libcmTC_ddc57.a && /usr/local/Cellar/cmake/3.26.4/bin/cmake -E touch Debug/libcmTC_ddc57.a && :]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-7TFrk3"
+      binary: "/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-7TFrk3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-7TFrk3
+        
+        Run Build Command(s):/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/ninja/ninja -v cmTC_51dee && [1/2] "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-g++" -DCMAKE_INTDIR=\\"Debug\\"  -g   -v -o CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c /usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-g++
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_51dee.dir/Debug/'
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -iprefix /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_51dee.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -version -o /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//ccSZqcss.s
+        GNU C++17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"
+        ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C++17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 07ea0d81d73219a1e806eaa4dd14249c
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_51dee.dir/Debug/'
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.obj /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//ccSZqcss.s
+        GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210
+        COMPILER_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/local/Cellar/cmake/3.26.4/bin/cmake -E rm -f Debug/libcmTC_51dee.a && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-ar" qc Debug/libcmTC_51dee.a  CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.obj && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-gcc-ranlib" Debug/libcmTC_51dee.a && /usr/local/Cellar/cmake/3.26.4/bin/cmake -E touch Debug/libcmTC_51dee.a && :
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include/c++/12.2.1]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include/c++/12.2.1/arm-none-eabi]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include/c++/12.2.1/backward]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include]
+        implicit include dirs: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include/c++/12.2.1;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include/c++/12.2.1/arm-none-eabi;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include/c++/12.2.1/backward;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include-fixed;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-gcc|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-7TFrk3]
+        ignore line: []
+        ignore line: [Run Build Command(s):/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/ninja/ninja -v cmTC_51dee && [1/2] "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-g++" -DCMAKE_INTDIR=\\"Debug\\"  -g   -v -o CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c /usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-g++]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_51dee.dir/Debug/']
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -iprefix /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /usr/local/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_51dee.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -version -o /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//ccSZqcss.s]
+        ignore line: [GNU C++17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 07ea0d81d73219a1e806eaa4dd14249c]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_51dee.dir/Debug/']
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.obj /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//ccSZqcss.s]
+        ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210]
+        ignore line: [COMPILER_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/local/Cellar/cmake/3.26.4/bin/cmake -E rm -f Debug/libcmTC_51dee.a && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-ar" qc Debug/libcmTC_51dee.a  CMakeFiles/cmTC_51dee.dir/Debug/CMakeCXXCompilerABI.cpp.obj && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-gcc-ranlib" Debug/libcmTC_51dee.a && /usr/local/Cellar/cmake/3.26.4/bin/cmake -E touch Debug/libcmTC_51dee.a && :]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The target system is: Generic -  - arm
+      The host system is: Darwin - 23.6.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/3.27.6/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/ld: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/3.27.6/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1104 (message)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 12.2.1 20221205
+      Copyright (C) 2022 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-dCYXIb"
+      binary: "/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-dCYXIb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-dCYXIb'
+        
+        Run Build Command(s): "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/ninja/ninja" -v cmTC_67ff7
+        [1/2] "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-gcc" -DCMAKE_INTDIR=\\"Debug\\"  -g -std=c17   -v -o CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.obj -c '/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCCompilerABI.c'
+        Using built-in specs.
+        COLLECT_GCC=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_67ff7.dir/Debug/'
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1 -quiet -v -iprefix /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_67ff7.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -std=c17 -version -o /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//ccY1oxmX.s
+        GNU C17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"
+        ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: f16b400e9c54daebd0b138d4d9878bc8
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_67ff7.dir/Debug/'
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.obj /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//ccY1oxmX.s
+        GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210
+        COMPILER_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.'
+        [2/2] : && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/bin/cmake" -E rm -f Debug/libcmTC_67ff7.a && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-ar" qc Debug/libcmTC_67ff7.a  CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.obj && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-gcc-ranlib" Debug/libcmTC_67ff7.a && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/bin/cmake" -E touch Debug/libcmTC_67ff7.a && :
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include]
+        implicit include dirs: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include-fixed;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-gcc|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-dCYXIb']
+        ignore line: []
+        ignore line: [Run Build Command(s): "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/ninja/ninja" -v cmTC_67ff7]
+        ignore line: [[1/2] "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-gcc" -DCMAKE_INTDIR=\\"Debug\\"  -g -std=c17   -v -o CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.obj -c '/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCCompilerABI.c']
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-gcc]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_67ff7.dir/Debug/']
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1 -quiet -v -iprefix /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_67ff7.dir/Debug/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -std=c17 -version -o /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//ccY1oxmX.s]
+        ignore line: [GNU C17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: f16b400e9c54daebd0b138d4d9878bc8]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_67ff7.dir/Debug/']
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.obj /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//ccY1oxmX.s]
+        ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210]
+        ignore line: [COMPILER_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-std=c17' '-v' '-o' 'CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/bin/cmake" -E rm -f Debug/libcmTC_67ff7.a && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-ar" qc Debug/libcmTC_67ff7.a  CMakeFiles/cmTC_67ff7.dir/Debug/CMakeCCompilerABI.c.obj && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-gcc-ranlib" Debug/libcmTC_67ff7.a && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/bin/cmake" -E touch Debug/libcmTC_67ff7.a && :]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-T4mxoV"
+      binary: "/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-T4mxoV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-T4mxoV'
+        
+        Run Build Command(s): "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/ninja/ninja" -v cmTC_369b7
+        [1/2] "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-g++" -DCMAKE_INTDIR=\\"Debug\\"  -g   -v -o CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c '/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp'
+        Using built-in specs.
+        COLLECT_GCC=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-g++
+        Target: arm-none-eabi
+        Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_369b7.dir/Debug/'
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -iprefix /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_369b7.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -version -o /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//cclHkVAH.s
+        GNU C++17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"
+        ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"
+        ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"
+        ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include
+        End of search list.
+        GNU C++17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+        	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 07ea0d81d73219a1e806eaa4dd14249c
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_369b7.dir/Debug/'
+         /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.obj /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//cclHkVAH.s
+        GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210
+        COMPILER_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/bin/cmake" -E rm -f Debug/libcmTC_369b7.a && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-ar" qc Debug/libcmTC_369b7.a  CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.obj && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-gcc-ranlib" Debug/libcmTC_369b7.a && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/bin/cmake" -E touch Debug/libcmTC_369b7.a && :
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+          add: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include/c++/12.2.1]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include/c++/12.2.1/arm-none-eabi]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include/c++/12.2.1/backward]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        collapse include dir [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include] ==> [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include]
+        implicit include dirs: [/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include/c++/12.2.1;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include/c++/12.2.1/arm-none-eabi;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include/c++/12.2.1/backward;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/lib/gcc/arm-none-eabi/12.2.1/include-fixed;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(arm-none-eabi-gcc|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/build/CMakeFiles/CMakeScratch/TryCompile-T4mxoV']
+        ignore line: []
+        ignore line: [Run Build Command(s): "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/ninja/ninja" -v cmTC_369b7]
+        ignore line: [[1/2] "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-g++" -DCMAKE_INTDIR=\\"Debug\\"  -g   -v -o CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.obj -c '/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp']
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7//bin/arm-none-eabi-g++]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: /Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install --with-gmp=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpfr=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-mpc=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --with-isl=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/Volumes/data/jenkins/workspace/GNU-toolchain/arm-12/build-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_369b7.dir/Debug/']
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus -quiet -v -iprefix /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/ -isysroot /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi -D__USES_INITFINI__ -D CMAKE_INTDIR="Debug" /Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_369b7.dir/Debug/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -g -version -o /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//cclHkVAH.s]
+        ignore line: [GNU C++17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"]
+        ignore line: [ignoring duplicate directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/usr/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version Apple LLVM 12.0.0 (clang-1200.0.32.29)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 07ea0d81d73219a1e806eaa4dd14249c]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_369b7.dir/Debug/']
+        ignore line: [ /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.obj /var/folders/8b/4tftyqz16f96v85yhmkndsl00000gn/T//cclHkVAH.s]
+        ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210]
+        ignore line: [COMPILER_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../libexec/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/:/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-D' 'CMAKE_INTDIR="Debug"' '-g' '-v' '-o' 'CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/bin/cmake" -E rm -f Debug/libcmTC_369b7.a && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-ar" qc Debug/libcmTC_369b7.a  CMakeFiles/cmTC_369b7.dir/Debug/CMakeCXXCompilerABI.cpp.obj && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/arm-none-eabi-gcc-ranlib" Debug/libcmTC_369b7.a && "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/bin/cmake" -E touch Debug/libcmTC_369b7.a && :]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...

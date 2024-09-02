@@ -1,0 +1,11 @@
+{
+    "cmake.sourceDirectory": "/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake",
+    "files.associations": {
+        "sl_component_catalog.h": "c",
+        "sl_system_init.h": "c",
+        "spidrv_master_baremetal.h": "c",
+        "sl_spidrv_instances.h": "c",
+        "sl_spidrv_exp_config.h": "c",
+        "spidrv.h": "c"
+    }
+}

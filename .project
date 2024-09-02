@@ -292,6 +292,16 @@
 			<locationURI>STUDIO_SDK_LOC/platform/emlib/src/em_usart.c</locationURI>
 		</link>
 		<link>
+			<name>gecko_sdk_4.4.4/app/common/util/app_assert/app_assert.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/app/common/util/app_assert/app_assert.h</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.4.4/app/common/util/app_assert/sl_app_assert.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/app/common/util/app_assert/sl_app_assert.h</locationURI>
+		</link>
+		<link>
 			<name>gecko_sdk_4.4.4/hardware/driver/configuration_over_swo/inc/sl_cos.h</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/hardware/driver/configuration_over_swo/inc/sl_cos.h</locationURI>
@@ -375,6 +385,16 @@
 			<name>gecko_sdk_4.4.4/platform/emdrv/dmadrv/src/dmadrv.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/emdrv/dmadrv/src/dmadrv.c</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.4.4/platform/emdrv/gpiointerrupt/inc/gpiointerrupt.h</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/emdrv/gpiointerrupt/inc/gpiointerrupt.h</locationURI>
+		</link>
+		<link>
+			<name>gecko_sdk_4.4.4/platform/emdrv/gpiointerrupt/src/gpiointerrupt.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/platform/emdrv/gpiointerrupt/src/gpiointerrupt.c</locationURI>
 		</link>
 		<link>
 			<name>gecko_sdk_4.4.4/platform/emdrv/spidrv/inc/spidrv.h</name>

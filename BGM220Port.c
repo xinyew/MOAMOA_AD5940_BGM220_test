@@ -20,7 +20,6 @@ Analog Devices Software License Agreement.
 #include "em_gpio.h"
 #include "sl_spidrv_exp_config.h"
 #include "sl_spidrv_instances.h"
-// #include "sl_spidrv_init.c"
 
 #define SYSTICK_MAXCOUNT ((1L<<24)-1) /* we use Systick to complete function Delay10uS(). This value only applies to ADICUP3029 board. */
 #define SYSTICK_CLKFREQ   26000000L   /* Systick clock frequency in Hz. This only appies to ADICUP3029 board */
@@ -31,7 +30,7 @@ volatile static uint32_t ucInterrupted = 0;       /* Flag to indicate interrupt 
 
 // use SPI handle for EXP header (configured in project settings)
 #define SPI_HANDLE                  sl_spidrv_exp_handle
-
+static volatile bool transfer_complete = false;
 
 // Callback fired when data is transmitted
 void transfer_callback(SPIDRV_HandleData_t *handle,
@@ -44,7 +43,7 @@ void transfer_callback(SPIDRV_HandleData_t *handle,
   // Post semaphore to signal to application
   // task that transfer is successful
   if (transfer_status == ECODE_EMDRV_SPIDRV_OK) {
-    // transfer_complete = true;
+    transfer_complete = true;
   }
 }
 
@@ -63,10 +62,13 @@ void transfer_callback(SPIDRV_HandleData_t *handle,
 void AD5940_ReadWriteNBytes(unsigned char *pSendBuffer,unsigned char *pRecvBuff,unsigned long length)
 {
   Ecode_t ecode;
+  transfer_complete = false;
   // Non-blocking data transfer to slave. When complete, rx buffer
   // will be filled.
   ecode = SPIDRV_MTransfer(SPI_HANDLE, pSendBuffer, pRecvBuff, length, transfer_callback);
   EFM_ASSERT(ecode == ECODE_OK);
+  // wait for transfer to complete
+  while (!transfer_complete) ;
 }
 
 void AD5940_CsClr(void)
@@ -101,6 +103,8 @@ uint32_t AD5940_GetMCUIntFlag(void)
 
 uint32_t AD5940_ClrMCUIntFlag(void)
 {
+    ucInterrupted = 0;
+    return 1;
 }
 
 /* Functions that used to initialize MCU platform */

@@ -30,11 +30,13 @@ sdk: {id: gecko_sdk, version: 4.4.4}
 toolchain_settings: []
 component:
 - {id: BGM220SC12WGA}
+- {id: app_assert}
 - {id: brd4002a}
 - {id: brd4310a}
 - {id: device_init}
-- instance: [AD5940_Rst]
+- instance: [AD5940_INT, AD5940_Rst]
   id: emlib_gpio_simple_init
+- {id: gpiointerrupt}
 - {id: iostream_recommended_stream}
 - {id: iostream_retarget_stdio}
 - {id: iostream_stdlib_config}

@@ -29,7 +29,7 @@
 // #define SPI_HANDLE                  sl_spidrv_exp_handle
 
 // size of transmission and reception buffers
-// #define APP_BUFFER_SIZE             16
+#define APP_BUFFER_SIZE             16
 
 /*******************************************************************************
  ***************************  LOCAL VARIABLES   ********************************
@@ -39,11 +39,11 @@
 // static volatile bool transfer_complete = false;
 
 // Data counter
-// static int counter = 0;
+static int counter = 0;
 
 // Transmission and reception buffers
-// static char rx_buffer[APP_BUFFER_SIZE];
-// static char tx_buffer[APP_BUFFER_SIZE];
+static char rx_buffer[APP_BUFFER_SIZE];
+static char tx_buffer[APP_BUFFER_SIZE];
 
 /*******************************************************************************
  *********************   LOCAL FUNCTION PROTOTYPES   ***************************
@@ -74,7 +74,7 @@
 void spidrv_app_init(void)
 {
   // stdout is redirected to VCOM in project configuration
-  printf("Welcome to the SPIDRV example application, master mode\r\n");
+  printf("Hello AD5940-Build Time:%s\n",__TIME__);
 }
 
 /***************************************************************************//**
@@ -83,12 +83,12 @@ void spidrv_app_init(void)
 void spidrv_app_process_action(void)
 {
   // Delay to allow slave to start
-  // sl_sleeptimer_delay_millisecond(10000);
-  // sprintf(tx_buffer, "ping %03d", counter);
-  // counter++;
-  // printf("Sending %s to slave...\r\n", tx_buffer);
+  sl_sleeptimer_delay_millisecond(5000);
+  sprintf(tx_buffer, "ping %03d", counter);
+  counter++;
+  printf("Sending %s to slave...\r\n", tx_buffer);
   // transfer_complete = false;
-  // wait for transfer to complete
   // while (!transfer_complete) ;
-  // printf("Got message from slave: %s\r\n", rx_buffer);
+  AD5940_ReadWriteNBytes(tx_buffer, rx_buffer, APP_BUFFER_SIZE);
+  printf("Got message from slave: %s\r\n", rx_buffer);
 }

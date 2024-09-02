@@ -185,6 +185,14 @@
             <file name="ecode.h" uri="studio:/sdk/platform/emdrv/common/inc/ecode.h"/>
           </folder>
         </folder>
+        <folder name="gpiointerrupt">
+          <folder name="src">
+            <file name="gpiointerrupt.c" uri="studio:/sdk/platform/emdrv/gpiointerrupt/src/gpiointerrupt.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="gpiointerrupt.h" uri="studio:/sdk/platform/emdrv/gpiointerrupt/inc/gpiointerrupt.h"/>
+          </folder>
+        </folder>
         <folder name="spidrv">
           <folder name="src">
             <file name="spidrv.c" uri="studio:/sdk/platform/emdrv/spidrv/src/spidrv.c"/>
@@ -243,6 +251,16 @@
         </folder>
       </folder>
     </folder>
+    <folder name="app">
+      <folder name="common">
+        <folder name="util">
+          <folder name="app_assert">
+            <file name="app_assert.h" uri="studio:/sdk/app/common/util/app_assert/app_assert.h"/>
+            <file name="sl_app_assert.h" uri="studio:/sdk/app/common/util/app_assert/sl_app_assert.h"/>
+          </folder>
+        </folder>
+      </folder>
+    </folder>
     <folder name="hardware">
       <folder name="board">
         <folder name="src">
@@ -286,6 +304,7 @@
   <file name="readme.md" linked="false" uri="studio:/project/readme.md"/>
   <includePath uri="studio:/project/"/>
   <includePath uri="studio:/sdk/platform/Device/SiliconLabs/BGM22/Include"/>
+  <includePath uri="studio:/sdk/app/common/util/app_assert"/>
   <includePath uri="studio:/sdk/platform/common/inc"/>
   <includePath uri="studio:/sdk/hardware/board/inc"/>
   <includePath uri="studio:/sdk/platform/CMSIS/Core/Include"/>
@@ -296,6 +315,7 @@
   <includePath uri="studio:/sdk/platform/emdrv/common/inc"/>
   <includePath uri="studio:/sdk/platform/emlib/inc"/>
   <includePath uri="studio:/sdk/platform/emlib/init/gpio_simple"/>
+  <includePath uri="studio:/sdk/platform/emdrv/gpiointerrupt/inc"/>
   <includePath uri="studio:/sdk/platform/service/iostream/inc"/>
   <includePath uri="studio:/sdk/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_usart"/>
   <includePath uri="studio:/sdk/platform/common/toolchain/inc"/>

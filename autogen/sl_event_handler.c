@@ -12,6 +12,7 @@
 #include "sl_sleeptimer.h"
 #include "sl_debug_swo.h"
 #include "sl_emlib_gpio_simple_init.h"
+#include "gpiointerrupt.h"
 #include "sl_iostream_init_eusart_instances.h"
 #include "sl_iostream_stdlib_config.h"
 #include "sl_spidrv_instances.h"
@@ -35,6 +36,7 @@ void sl_driver_init(void)
 {
   sl_debug_swo_init();
   sl_emlib_gpio_simple_init();
+  GPIOINT_Init();
   sl_spidrv_init_instances();
   sl_cos_send_config();
 }

@@ -1,4 +1,5 @@
 #CRC Codes for initially generated config files -- do not modify!
+app_assert_config.h=1717687323
 dmadrv_config.h=281221886
 emlib_core_debug_config.h=1524820012
 sl_board_control_config.h=2105482180
@@ -7,6 +8,7 @@ sl_device_init_dcdc_config.h=-1223674373
 sl_device_init_emu_config.h=1238190016
 sl_device_init_hfxo_config.h=99694544
 sl_device_init_lfxo_config.h=206318933
+sl_emlib_gpio_init_AD5940_INT_config.h=1840273101
 sl_emlib_gpio_init_AD5940_Rst_config.h=452329526
 sl_iostream_eusart_vcom_config.h=1697934895
 sl_memory_config.h=-995392215

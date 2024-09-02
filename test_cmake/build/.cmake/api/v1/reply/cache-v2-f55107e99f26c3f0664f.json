@@ -207,7 +207,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "27"
+			"value" : "26"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -219,7 +219,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "6"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -231,7 +231,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/bin/cmake"
+			"value" : "/usr/local/Cellar/cmake/3.26.4/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CONFIGURATION_TYPES",
@@ -255,7 +255,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/bin/cpack"
+			"value" : "/usr/local/Cellar/cmake/3.26.4/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -267,7 +267,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/bin/ctest"
+			"value" : "/usr/local/Cellar/cmake/3.26.4/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -1107,7 +1107,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Applications/Simplicity Studio.app/Contents/Eclipse/developer/adapter_packs/cmake/CMake.app/Contents/share/cmake-3.27"
+			"value" : "/usr/local/Cellar/cmake/3.26.4/share/cmake"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1374,7 +1374,7 @@
 					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "UNINITIALIZED",
 			"value" : "/Users/xinye/SimplicityStudio/v5_workspace/test/test_cmake/toolchain.cmake"
 		},
 		{

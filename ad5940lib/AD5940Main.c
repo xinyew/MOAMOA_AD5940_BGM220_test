@@ -131,16 +131,16 @@ void AD5940RampStructInit(void)
 	pRampCfg->ADCSinc3Osr = ADCSINC3OSR_4;
   
 	/* Step 2:Configure square wave signal parameters */
-  pRampCfg->RampStartVolt = -400.0f;     /* Measurement starts at 0V*/
-  pRampCfg->RampPeakVolt = 0.0f;     		 /* Measurement finishes at -0.4V */
+  pRampCfg->RampStartVolt = -1000.0f;     /* Measurement starts at 0V*/
+  pRampCfg->RampPeakVolt = 1000.0f;     		 /* Measurement finishes at -0.4V */
   pRampCfg->VzeroStart = 1300.0f;           /* Vzero is voltage on SE0 pin: 1.3V */
   pRampCfg->VzeroPeak = 1300.0f;          /* Vzero is voltage on SE0 pin: 1.3V */
-  pRampCfg->Frequency = 750;                 /* Frequency of square wave in Hz */
-  pRampCfg->SqrWvAmplitude = 150;       /* Amplitude of square wave in mV */
-  pRampCfg->SqrWvRampIncrement = 5; /* Increment in mV*/
+  pRampCfg->Frequency = 10;                 /* Frequency of square wave in Hz */
+  pRampCfg->SqrWvAmplitude = 50;       /* Amplitude of square wave in mV */
+  pRampCfg->SqrWvRampIncrement = 500; /* Increment in mV*/
   pRampCfg->SampleDelay = 0.2f;             /* Time between update DAC and ADC sample. Unit is ms and must be < (1/Frequency)/2 - 0.2*/
-  pRampCfg->LPTIARtiaSel = LPTIARTIA_1K;      /* Maximum current decides RTIA value */
-	pRampCfg->bRampOneDir = bFALSE;//bTRUE;			/* Only measure ramp in one direction */
+  pRampCfg->LPTIARtiaSel = LPTIARTIA_200R;      /* Maximum current decides RTIA value */
+	pRampCfg->bRampOneDir = bTRUE;//bTRUE;			/* Only measure ramp in one direction */
 }
 
 void AD5940_Main(void)

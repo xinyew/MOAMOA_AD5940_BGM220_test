@@ -31,22 +31,22 @@ volatile uint32_t ucInterrupted = 0;       /* Flag to indicate interrupt occurre
 
 // use SPI handle for EXP header (configured in project settings)
 #define SPI_HANDLE                  sl_spidrv_exp_handle
-static volatile bool transfer_complete = false;
+// static volatile bool transfer_complete = false;
 
 // Callback fired when data is transmitted
-void transfer_callback(SPIDRV_HandleData_t *handle,
-                       Ecode_t transfer_status,
-                       int items_transferred)
-{
-  (void)&handle;
-  (void)items_transferred;
+// void transfer_callback(SPIDRV_HandleData_t *handle,
+//                        Ecode_t transfer_status,
+//                        int items_transferred)
+// {
+//   (void)&handle;
+//   (void)items_transferred;
 
-  // Post semaphore to signal to application
-  // task that transfer is successful
-  if (transfer_status == ECODE_EMDRV_SPIDRV_OK) {
-    transfer_complete = true;
-  }
-}
+//   // Post semaphore to signal to application
+//   // task that transfer is successful
+//   if (transfer_status == ECODE_EMDRV_SPIDRV_OK) {
+//     transfer_complete = true;
+//   }
+// }
 
 
 /**
@@ -63,13 +63,13 @@ void transfer_callback(SPIDRV_HandleData_t *handle,
 void AD5940_ReadWriteNBytes(unsigned char *pSendBuffer,unsigned char *pRecvBuff,unsigned long length)
 {
   Ecode_t ecode;
-  transfer_complete = false;
+  // transfer_complete = false;
   // Non-blocking data transfer to slave. When complete, rx buffer
   // will be filled.
-  ecode = SPIDRV_MTransfer(SPI_HANDLE, pSendBuffer, pRecvBuff, length, transfer_callback);
+  ecode = SPIDRV_MTransferB(SPI_HANDLE, pSendBuffer, pRecvBuff, length);
   EFM_ASSERT(ecode == ECODE_OK);
   // wait for transfer to complete
-  while (!transfer_complete) ;
+  // while (!transfer_complete) ;
 }
 
 void AD5940_CsClr(void)

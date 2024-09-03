@@ -213,6 +213,13 @@
 #define AD5940_INT_PIN                           1
 #endif
 
+#ifndef CS_PORT                                 
+#define CS_PORT                                  gpioPortB
+#endif
+#ifndef CS_PIN                                  
+#define CS_PIN                                   2
+#endif
+
 // [CUSTOM_PIN_NAME]$
 
 #endif // PIN_CONFIG_H

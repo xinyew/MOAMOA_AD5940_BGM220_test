@@ -34,7 +34,7 @@ component:
 - {id: brd4002a}
 - {id: brd4310a}
 - {id: device_init}
-- instance: [AD5940_INT, AD5940_Rst]
+- instance: [AD5940_INT, AD5940_Rst, CS]
   id: emlib_gpio_simple_init
 - {id: gpiointerrupt}
 - {id: iostream_recommended_stream}

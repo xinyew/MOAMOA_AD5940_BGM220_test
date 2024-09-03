@@ -16,6 +16,9 @@
     <property object="PB01" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_AD5940_INT%T%sl_emlib_gpio_init_AD5940_INT_config.h"/>
     <property object="PB01" propertyId="pin.name" value="AD5940_INT"/>
     <property object="PB01" propertyId="pin.reserve" value="Reserved"/>
+    <property object="PB02" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EMLIB_GPIO_INIT_CS%T%sl_emlib_gpio_init_CS_config.h"/>
+    <property object="PB02" propertyId="pin.name" value="CS"/>
+    <property object="PB02" propertyId="pin.reserve" value="Reserved"/>
     <property object="PB04" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_BOARD_ENABLE_VCOM%T%sl_board_control_config.h"/>
     <property object="PB04" propertyId="pin.reserve" value="Reserved"/>
     <property object="PD02" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_BOARD_ENABLE_SENSOR_RHT%T%sl_board_control_config.h"/>

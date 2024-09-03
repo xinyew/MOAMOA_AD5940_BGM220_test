@@ -20,6 +20,7 @@ Analog Devices Software License Agreement.
 #include "em_gpio.h"
 #include "sl_spidrv_exp_config.h"
 #include "sl_spidrv_instances.h"
+#include "sl_emlib_gpio_init_CS_config.h"
 
 #define SYSTICK_MAXCOUNT ((1L<<24)-1) /* we use Systick to complete function Delay10uS(). This value only applies to ADICUP3029 board. */
 #define SYSTICK_CLKFREQ   26000000L   /* Systick clock frequency in Hz. This only appies to ADICUP3029 board */
@@ -73,12 +74,12 @@ void AD5940_ReadWriteNBytes(unsigned char *pSendBuffer,unsigned char *pRecvBuff,
 
 void AD5940_CsClr(void)
 {
-    GPIO_PinOutClear(SL_EMLIB_GPIO_INIT_AD5940_CS_PORT, SL_EMLIB_GPIO_INIT_AD5940_CS_PIN);
+    GPIO_PinOutClear(SL_EMLIB_GPIO_INIT_CS_PORT, SL_EMLIB_GPIO_INIT_CS_PIN);
 }
 
 void AD5940_CsSet(void)
 {
-    GPIO_PinOutSet(SL_EMLIB_GPIO_INIT_AD5940_CS_PORT, SL_EMLIB_GPIO_INIT_AD5940_CS_PIN);
+    GPIO_PinOutSet(SL_EMLIB_GPIO_INIT_CS_PORT, SL_EMLIB_GPIO_INIT_CS_PIN);
 }
 
 void AD5940_RstSet(void)

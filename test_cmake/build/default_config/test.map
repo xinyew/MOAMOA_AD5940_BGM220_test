@@ -2331,274 +2331,274 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
                 0x00000000000076c6        0x4 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_board_default_init.c.obj
                 0x00000000000076c6                sl_board_default_init
  .text.sl_emlib_gpio_simple_init
-                0x00000000000076ca       0x26 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_emlib_gpio_simple_init.c.obj
+                0x00000000000076ca       0x32 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_emlib_gpio_simple_init.c.obj
                 0x00000000000076ca                sl_emlib_gpio_simple_init
  .text.sl_driver_init
-                0x00000000000076f0       0x1a CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
-                0x00000000000076f0                sl_driver_init
+                0x00000000000076fc       0x1a CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
+                0x00000000000076fc                sl_driver_init
  .text.sl_service_init
-                0x000000000000770a       0x16 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
-                0x000000000000770a                sl_service_init
+                0x0000000000007716       0x16 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
+                0x0000000000007716                sl_service_init
  .text.sl_stack_init
-                0x0000000000007720        0x2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
-                0x0000000000007720                sl_stack_init
+                0x000000000000772c        0x2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
+                0x000000000000772c                sl_stack_init
  .text.sl_internal_app_init
-                0x0000000000007722        0x2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
-                0x0000000000007722                sl_internal_app_init
+                0x000000000000772e        0x2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
+                0x000000000000772e                sl_internal_app_init
  .text.sl_platform_process_action
-                0x0000000000007724        0x2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
-                0x0000000000007724                sl_platform_process_action
+                0x0000000000007730        0x2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
+                0x0000000000007730                sl_platform_process_action
  .text.sl_service_process_action
-                0x0000000000007726        0x2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
-                0x0000000000007726                sl_service_process_action
+                0x0000000000007732        0x2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
+                0x0000000000007732                sl_service_process_action
  .text.sl_stack_process_action
-                0x0000000000007728        0x2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
-                0x0000000000007728                sl_stack_process_action
+                0x0000000000007734        0x2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
+                0x0000000000007734                sl_stack_process_action
  .text.sl_internal_app_process_action
-                0x000000000000772a        0x2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
-                0x000000000000772a                sl_internal_app_process_action
+                0x0000000000007736        0x2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
+                0x0000000000007736                sl_internal_app_process_action
  .text.sl_iostream_eusart_init_instances
-                0x000000000000772c        0x4 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_iostream_init_eusart_instances.c.obj
-                0x000000000000772c                sl_iostream_eusart_init_instances
+                0x0000000000007738        0x4 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_iostream_init_eusart_instances.c.obj
+                0x0000000000007738                sl_iostream_eusart_init_instances
  .text.EUART0_TX_IRQHandler
-                0x0000000000007730        0x4 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_iostream_init_eusart_instances.c.obj
-                0x0000000000007730                EUART0_TX_IRQHandler
+                0x000000000000773c        0x4 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_iostream_init_eusart_instances.c.obj
+                0x000000000000773c                EUART0_TX_IRQHandler
  .text.startup.main
-                0x0000000000007734       0x16 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/main.c.obj
-                0x0000000000007734                main
+                0x0000000000007740       0x16 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/main.c.obj
+                0x0000000000007740                main
  .text.spidrv_app_process_action
-                0x000000000000774a        0x4 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
-                0x000000000000774a                spidrv_app_process_action
+                0x0000000000007756        0x4 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
+                0x0000000000007756                spidrv_app_process_action
  .text.AD5940_Delay10us
-                0x000000000000774e        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
-                0x000000000000774e                AD5940_Delay10us
+                0x000000000000775a        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
+                0x000000000000775a                AD5940_Delay10us
  .text._is_value_in_table
-                0x0000000000007756       0x1a CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007762       0x1a CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
  .text.AD5940_ReadWrite16B
-                0x0000000000007770       0x20 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x000000000000777c       0x20 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
  .text.AD5940_ReadWrite32B
-                0x0000000000007790       0x1c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x000000000000779c       0x1c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
  .text.AD5940_ReadWrite8B.isra.0
-                0x00000000000077ac       0x16 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x00000000000077b8       0x16 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
  .text.AD5940_SPIReadReg
-                0x00000000000077c2       0x4e CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x00000000000077ce       0x4e CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
  .text.AD5940_StructInit
-                0x0000000000007810        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007810                AD5940_StructInit
+                0x000000000000781c        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x000000000000781c                AD5940_StructInit
  .text.AD5940_ComplexDivInt
-                0x0000000000007818       0x46 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007818                AD5940_ComplexDivInt
+                0x0000000000007824       0x46 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007824                AD5940_ComplexDivInt
  .text.AD5940_ComplexMag
-                0x000000000000785e       0x30 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x000000000000785e                AD5940_ComplexMag
+                0x000000000000786a       0x30 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x000000000000786a                AD5940_ComplexMag
  .text.AD5940_ComplexPhase
-                0x000000000000788e       0x3a CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x000000000000788e                AD5940_ComplexPhase
+                0x000000000000789a       0x3a CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x000000000000789a                AD5940_ComplexPhase
  .text.AD5940_FIFORd
-                0x00000000000078c8       0x94 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x00000000000078c8                AD5940_FIFORd
+                0x00000000000078d4       0x94 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x00000000000078d4                AD5940_FIFORd
  .text.AD5940_AFECtrlS
-                0x000000000000795c       0x58 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x000000000000795c                AD5940_AFECtrlS
+                0x0000000000007968       0x58 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007968                AD5940_AFECtrlS
  .text.AD5940_AFEPwrBW
-                0x00000000000079b4        0xc CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x00000000000079b4                AD5940_AFEPwrBW
+                0x00000000000079c0        0xc CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x00000000000079c0                AD5940_AFEPwrBW
  .text.AD5940_REFCfgS
-                0x00000000000079c0       0xaa CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x00000000000079c0                AD5940_REFCfgS
+                0x00000000000079cc       0xaa CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x00000000000079cc                AD5940_REFCfgS
  .text.AD5940_SWMatrixCfgS
-                0x0000000000007a6a       0x3c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007a6a                AD5940_SWMatrixCfgS
+                0x0000000000007a76       0x3c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007a76                AD5940_SWMatrixCfgS
  .text.AD5940_HSDacCfgS
-                0x0000000000007aa6       0x28 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007aa6                AD5940_HSDacCfgS
+                0x0000000000007ab2       0x28 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007ab2                AD5940_HSDacCfgS
  .text.AD5940_HSTIACfgS
-                0x0000000000007ace       0x52 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007ace                AD5940_HSTIACfgS
+                0x0000000000007ada       0x52 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007ada                AD5940_HSTIACfgS
  .text.AD5940_WGCfgS
-                0x0000000000007b20       0x9e CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007b20                AD5940_WGCfgS
+                0x0000000000007b2c       0x9e CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007b2c                AD5940_WGCfgS
  .text.AD5940_HSLoopCfgS
-                0x0000000000007bbe       0x24 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007bbe                AD5940_HSLoopCfgS
+                0x0000000000007bca       0x24 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007bca                AD5940_HSLoopCfgS
  .text.AD5940_WGDACCodeS
-                0x0000000000007be2       0x12 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007be2                AD5940_WGDACCodeS
+                0x0000000000007bee       0x12 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007bee                AD5940_WGDACCodeS
  .text.AD5940_LPDAC0WriteS
-                0x0000000000007bf4       0x14 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007bf4                AD5940_LPDAC0WriteS
+                0x0000000000007c00       0x14 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007c00                AD5940_LPDAC0WriteS
  .text.AD5940_LPDAC1WriteS
-                0x0000000000007c08       0x14 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007c08                AD5940_LPDAC1WriteS
+                0x0000000000007c14       0x14 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007c14                AD5940_LPDAC1WriteS
  .text.AD5940_LPDACCfgS
-                0x0000000000007c1c       0x6c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007c1c                AD5940_LPDACCfgS
+                0x0000000000007c28       0x6c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007c28                AD5940_LPDACCfgS
  .text.AD5940_LPAMPCfgS
-                0x0000000000007c88       0x64 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007c88                AD5940_LPAMPCfgS
+                0x0000000000007c94       0x64 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007c94                AD5940_LPAMPCfgS
  .text.AD5940_LPLoopCfgS
-                0x0000000000007cec       0x14 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007cec                AD5940_LPLoopCfgS
+                0x0000000000007cf8       0x14 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007cf8                AD5940_LPLoopCfgS
  .text.AD5940_ADCBaseCfgS
-                0x0000000000007d00       0x16 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007d00                AD5940_ADCBaseCfgS
+                0x0000000000007d0c       0x16 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007d0c                AD5940_ADCBaseCfgS
  .text.AD5940_ADCFilterCfgS
-                0x0000000000007d16       0x58 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007d16                AD5940_ADCFilterCfgS
+                0x0000000000007d22       0x58 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007d22                AD5940_ADCFilterCfgS
  .text.AD5940_ADCDigCompCfgS
-                0x0000000000007d6e       0x30 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007d6e                AD5940_ADCDigCompCfgS
+                0x0000000000007d7a       0x30 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007d7a                AD5940_ADCDigCompCfgS
  .text.AD5940_StatisticCfgS
-                0x0000000000007d9e       0x1c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007d9e                AD5940_StatisticCfgS
+                0x0000000000007daa       0x1c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007daa                AD5940_StatisticCfgS
  .text.AD5940_DFTCfgS
-                0x0000000000007dba       0x4e CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007dba                AD5940_DFTCfgS
+                0x0000000000007dc6       0x4e CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007dc6                AD5940_DFTCfgS
  .text.AD5940_DSPCfgS
-                0x0000000000007e08       0x2c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007e08                AD5940_DSPCfgS
+                0x0000000000007e14       0x2c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007e14                AD5940_DSPCfgS
  .text.AD5940_FIFOCfg
-                0x0000000000007e34       0x56 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007e34                AD5940_FIFOCfg
+                0x0000000000007e40       0x56 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007e40                AD5940_FIFOCfg
  .text.AD5940_FIFOCtrlS
-                0x0000000000007e8a       0x16 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007e8a                AD5940_FIFOCtrlS
+                0x0000000000007e96       0x16 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007e96                AD5940_FIFOCtrlS
  .text.AD5940_FIFOGetCnt
-                0x0000000000007ea0        0xe CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007ea0                AD5940_FIFOGetCnt
+                0x0000000000007eac        0xe CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007eac                AD5940_FIFOGetCnt
  .text.AD5940_SEQCfg
-                0x0000000000007eae       0x70 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007eae                AD5940_SEQCfg
+                0x0000000000007eba       0x70 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007eba                AD5940_SEQCfg
  .text.AD5940_SEQGetCfg
-                0x0000000000007f1e       0x36 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007f1e                AD5940_SEQGetCfg
+                0x0000000000007f2a       0x36 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007f2a                AD5940_SEQGetCfg
  .text.AD5940_SEQCtrlS
-                0x0000000000007f54       0x26 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007f54                AD5940_SEQCtrlS
+                0x0000000000007f60       0x26 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007f60                AD5940_SEQCtrlS
  .text.AD5940_SEQMmrTrig
-                0x0000000000007f7a       0x12 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007f7a                AD5940_SEQMmrTrig
+                0x0000000000007f86       0x12 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007f86                AD5940_SEQMmrTrig
  .text.AD5940_SEQCmdWrite
-                0x0000000000007f8c       0x28 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007f8c                AD5940_SEQCmdWrite
+                0x0000000000007f98       0x28 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007f98                AD5940_SEQCmdWrite
  .text.AD5940_SEQInfoCfg
-                0x0000000000007fb4       0x62 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000007fb4                AD5940_SEQInfoCfg
+                0x0000000000007fc0       0x62 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000007fc0                AD5940_SEQInfoCfg
  .text.AD5940_SEQGpioCtrlS
-                0x0000000000008016        0xa CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000008016                AD5940_SEQGpioCtrlS
+                0x0000000000008022        0xa CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000008022                AD5940_SEQGpioCtrlS
  .text.AD5940_SEQTimeOutRd
-                0x0000000000008020        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000008020                AD5940_SEQTimeOutRd
+                0x000000000000802c        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x000000000000802c                AD5940_SEQTimeOutRd
  .text.AD5940_WUPTCfg
-                0x0000000000008028      0x13e CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000008028                AD5940_WUPTCfg
+                0x0000000000008034      0x13e CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000008034                AD5940_WUPTCfg
  .text.AD5940_WUPTCtrl
-                0x0000000000008166       0x28 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000008166                AD5940_WUPTCtrl
+                0x0000000000008172       0x28 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000008172                AD5940_WUPTCtrl
  .text.AD5940_WUPTTime
-                0x000000000000818e       0xc6 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x000000000000818e                AD5940_WUPTTime
+                0x000000000000819a       0xc6 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x000000000000819a                AD5940_WUPTTime
  .text.AD5940_HFOSC32MHzCtrl
-                0x0000000000008254       0x78 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000008254                AD5940_HFOSC32MHzCtrl
+                0x0000000000008260       0x78 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000008260                AD5940_HFOSC32MHzCtrl
  .text.AD5940_CLKCfg
-                0x00000000000082cc       0xfe CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x00000000000082cc                AD5940_CLKCfg
+                0x00000000000082d8       0xfe CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x00000000000082d8                AD5940_CLKCfg
  .text.AD5940_INTCCfg
-                0x00000000000083ca       0x30 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x00000000000083ca                AD5940_INTCCfg
+                0x00000000000083d6       0x30 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x00000000000083d6                AD5940_INTCCfg
  .text.AD5940_INTCClrFlag
-                0x00000000000083fa        0xa CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x00000000000083fa                AD5940_INTCClrFlag
+                0x0000000000008406        0xa CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000008406                AD5940_INTCClrFlag
  .text.AD5940_INTCTestFlag
-                0x0000000000008404       0x22 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000008404                AD5940_INTCTestFlag
+                0x0000000000008410       0x22 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000008410                AD5940_INTCTestFlag
  .text.AD5940_INTCGetFlag
-                0x0000000000008426       0x14 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000008426                AD5940_INTCGetFlag
+                0x0000000000008432       0x14 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000008432                AD5940_INTCGetFlag
  .text.AD5940_AGPIOFuncCfg
-                0x000000000000843a        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x000000000000843a                AD5940_AGPIOFuncCfg
+                0x0000000000008446        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000008446                AD5940_AGPIOFuncCfg
  .text.AD5940_AGPIOOen
-                0x0000000000008442        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000008442                AD5940_AGPIOOen
+                0x000000000000844e        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x000000000000844e                AD5940_AGPIOOen
  .text.AD5940_AGPIOIen
-                0x000000000000844a        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x000000000000844a                AD5940_AGPIOIen
+                0x0000000000008456        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000008456                AD5940_AGPIOIen
  .text.AD5940_AGPIOPen
-                0x0000000000008452        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000008452                AD5940_AGPIOPen
+                0x000000000000845e        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x000000000000845e                AD5940_AGPIOPen
  .text.AD5940_AGPIOCfg
-                0x000000000000845a       0x28 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x000000000000845a                AD5940_AGPIOCfg
+                0x0000000000008466       0x28 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000008466                AD5940_AGPIOCfg
  .text.AD5940_SleepKeyCtrlS
-                0x0000000000008482        0xa CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x0000000000008482                AD5940_SleepKeyCtrlS
+                0x000000000000848e        0xa CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x000000000000848e                AD5940_SleepKeyCtrlS
  .text.AD5940_EnterSleepS
-                0x000000000000848c       0x1a CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x000000000000848c                AD5940_EnterSleepS
+                0x0000000000008498       0x1a CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000008498                AD5940_EnterSleepS
  .text.AD5940_WakeUp
-                0x00000000000084a6       0x26 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x00000000000084a6                AD5940_WakeUp
+                0x00000000000084b2       0x26 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x00000000000084b2                AD5940_WakeUp
  .text.AD5940_HWReset
-                0x00000000000084cc       0x1c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
-                0x00000000000084cc                AD5940_HWReset
+                0x00000000000084d8       0x1c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x00000000000084d8                AD5940_HWReset
  .text._fwalk_sglue
-                0x00000000000084e8       0x3c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-fwalk.o)
-                0x00000000000084e8                _fwalk_sglue
+                0x00000000000084f4       0x3c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-fwalk.o)
+                0x00000000000084f4                _fwalk_sglue
  .text.__swhatbuf_r
-                0x0000000000008524       0x4a /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-makebuf.o)
-                0x0000000000008524                __swhatbuf_r
+                0x0000000000008530       0x4a /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-makebuf.o)
+                0x0000000000008530                __swhatbuf_r
  .text.__smakebuf_r
-                0x000000000000856e       0x78 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-makebuf.o)
-                0x000000000000856e                __smakebuf_r
- .text._puts_r  0x00000000000085e6       0xaa /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-puts.o)
-                0x00000000000085e6                _puts_r
- .text.memset   0x0000000000008690       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-memset.o)
-                0x0000000000008690                memset
+                0x000000000000857a       0x78 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-makebuf.o)
+                0x000000000000857a                __smakebuf_r
+ .text._puts_r  0x00000000000085f2       0xaa /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-puts.o)
+                0x00000000000085f2                _puts_r
+ .text.memset   0x000000000000869c       0x10 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-memset.o)
+                0x000000000000869c                memset
  .text.__retarget_lock_init_recursive
-                0x00000000000086a0        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-lock.o)
-                0x00000000000086a0                __retarget_lock_init_recursive
+                0x00000000000086ac        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-lock.o)
+                0x00000000000086ac                __retarget_lock_init_recursive
  .text.__retarget_lock_acquire_recursive
-                0x00000000000086a2        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-lock.o)
-                0x00000000000086a2                __retarget_lock_acquire_recursive
+                0x00000000000086ae        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-lock.o)
+                0x00000000000086ae                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x00000000000086a4        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-lock.o)
-                0x00000000000086a4                __retarget_lock_release_recursive
- .text.memcpy   0x00000000000086a6       0x1a /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
-                0x00000000000086a6                memcpy
+                0x00000000000086b0        0x2 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-lock.o)
+                0x00000000000086b0                __retarget_lock_release_recursive
+ .text.memcpy   0x00000000000086b2       0x1a /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+                0x00000000000086b2                memcpy
  .text.__sfputc_r
-                0x00000000000086c0       0x2e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000000000086cc       0x2e /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x00000000000086ee       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
-                0x00000000000086ee                __sfputs_r
+                0x00000000000086fa       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000000000086fa                __sfputs_r
  .text._printf_common
-                0x0000000000008712       0xe4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x0000000000008712                _printf_common
+                0x000000000000871e       0xe4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x000000000000871e                _printf_common
  .text.__sflush_r
-                0x00000000000087f6      0x106 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-fflush.o)
-                0x00000000000087f6                __sflush_r
+                0x0000000000008802      0x106 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-fflush.o)
+                0x0000000000008802                __sflush_r
  .text._fflush_r
-                0x00000000000088fc       0x50 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-fflush.o)
-                0x00000000000088fc                _fflush_r
- .text.__sread  0x000000000000894c       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-stdio.o)
-                0x000000000000894c                __sread
+                0x0000000000008908       0x50 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-fflush.o)
+                0x0000000000008908                _fflush_r
+ .text.__sread  0x0000000000008958       0x22 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-stdio.o)
+                0x0000000000008958                __sread
  .text.__swrite
-                0x000000000000896e       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-stdio.o)
-                0x000000000000896e                __swrite
- .text.__sseek  0x00000000000089a6       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-stdio.o)
-                0x00000000000089a6                __sseek
+                0x000000000000897a       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-stdio.o)
+                0x000000000000897a                __swrite
+ .text.__sseek  0x00000000000089b2       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-stdio.o)
+                0x00000000000089b2                __sseek
  .text.__sclose
-                0x00000000000089ca        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-stdio.o)
-                0x00000000000089ca                __sclose
+                0x00000000000089d6        0x8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-stdio.o)
+                0x00000000000089d6                __sclose
  .text.__swbuf_r
-                0x00000000000089d2       0x7c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-wbuf.o)
-                0x00000000000089d2                __swbuf_r
- .text.memchr   0x0000000000008a4e       0x1c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-memchr-stub.o)
-                0x0000000000008a4e                memchr
+                0x00000000000089de       0x7c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-wbuf.o)
+                0x00000000000089de                __swbuf_r
+ .text.memchr   0x0000000000008a5a       0x1c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-memchr-stub.o)
+                0x0000000000008a5a                memchr
                 0x0000000000008a80                . = ALIGN (0x20)
- *fill*         0x0000000000008a6a       0x16 
+ *fill*         0x0000000000008a76        0xa 
                 0x0000000000008a80                linker_code_end = .
  *(.init)
  .init          0x0000000000008a80        0x4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/crti.o
@@ -2678,18 +2678,17 @@ LOAD /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/g
  .rodata.AD5940_ReadWriteNBytes.str1.1
                 0x00000000000090c5       0x3d CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
  .rodata.AD5940_Main.str1.1
-                0x0000000000009102       0x1f CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+                0x0000000000009102       0x21 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
  .rodata.AppSWVSeqDACCtrlGen.str1.1
-                0x0000000000009121       0x4a CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
+                0x0000000000009123       0x4a CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
  .rodata.AppSWVInit.str1.1
-                0x000000000000916b        0xc CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
+                0x000000000000916d        0xc CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
  .rodata.AD5940_Notch50HzAvailable.str1.1
-                0x0000000000009177       0x22 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000009179       0x22 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
  .rodata.AD5940_Notch60HzAvailable.str1.1
-                0x0000000000009199        0xe CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x000000000000919b        0xe CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
  .rodata.AD5940_Initialize.str1.1
-                0x00000000000091a7       0x7f CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
- *fill*         0x0000000000009226        0x2 
+                0x00000000000091a9       0x7f CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
  .rodata.SeqBB.1
                 0x0000000000009228        0x8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
  .rodata.SeqB.2
@@ -3263,7 +3262,7 @@ LOAD linker stubs
  .debug_line_str
                 0x00000000000001df       0xdb /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_arm_unorddf2.o)
 
-.debug_info     0x0000000000000000    0x43bc5
+.debug_info     0x0000000000000000    0x43be7
  .debug_info    0x0000000000000000      0x546 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_control_gpio.c.obj
  .debug_info    0x0000000000000546      0x2a9 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_init.c.obj
  .debug_info    0x00000000000007ef      0x479 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/driver/configuration_over_swo/src/sl_cos.c.obj
@@ -3303,16 +3302,16 @@ LOAD linker stubs
  .debug_info    0x00000000000337e8     0x1142 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/app.c.obj
  .debug_info    0x000000000003492a       0xba CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_board_default_init.c.obj
  .debug_info    0x00000000000349e4      0xec1 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_device_init_clocks.c.obj
- .debug_info    0x00000000000358a5      0x388 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_emlib_gpio_simple_init.c.obj
- .debug_info    0x0000000000035c2d      0xc3d CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
- .debug_info    0x000000000003686a     0x1549 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_iostream_init_eusart_instances.c.obj
- .debug_info    0x0000000000037db3      0xb8f CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_spidrv_init.c.obj
- .debug_info    0x0000000000038942       0x89 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/main.c.obj
- .debug_info    0x00000000000389cb      0x13d CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
- .debug_info    0x0000000000038b08     0x1d3d CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
- .debug_info    0x000000000003a845      0xa43 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
- .debug_info    0x000000000003b288     0x1a0d CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
- .debug_info    0x000000000003cc95     0x6f30 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+ .debug_info    0x00000000000358a5      0x3aa CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_emlib_gpio_simple_init.c.obj
+ .debug_info    0x0000000000035c4f      0xc3d CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
+ .debug_info    0x000000000003688c     0x1549 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_iostream_init_eusart_instances.c.obj
+ .debug_info    0x0000000000037dd5      0xb8f CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_spidrv_init.c.obj
+ .debug_info    0x0000000000038964       0x89 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/main.c.obj
+ .debug_info    0x00000000000389ed      0x13d CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
+ .debug_info    0x0000000000038b2a     0x1d3d CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
+ .debug_info    0x000000000003a867      0xa43 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+ .debug_info    0x000000000003b2aa     0x1a0d CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
+ .debug_info    0x000000000003ccb7     0x6f30 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
 
 .debug_abbrev   0x0000000000000000     0x7abb
  .debug_abbrev  0x0000000000000000      0x19a CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_control_gpio.c.obj
@@ -3641,7 +3640,7 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000000000012c5      0x483 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
 
-.debug_line     0x0000000000000000    0x187a8
+.debug_line     0x0000000000000000    0x187a9
  .debug_line    0x0000000000000000      0x4cb CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_control_gpio.c.obj
  .debug_line    0x00000000000004cb      0x2ab CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_init.c.obj
  .debug_line    0x0000000000000776      0x4e7 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/driver/configuration_over_swo/src/sl_cos.c.obj
@@ -3681,16 +3680,16 @@ LOAD linker stubs
  .debug_line    0x000000000001125c      0x38f CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/app.c.obj
  .debug_line    0x00000000000115eb      0x24d CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_board_default_init.c.obj
  .debug_line    0x0000000000011838      0x2f1 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_device_init_clocks.c.obj
- .debug_line    0x0000000000011b29      0x211 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_emlib_gpio_simple_init.c.obj
- .debug_line    0x0000000000011d3a      0x7f2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
- .debug_line    0x000000000001252c      0x5c6 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_iostream_init_eusart_instances.c.obj
- .debug_line    0x0000000000012af2      0x438 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_spidrv_init.c.obj
- .debug_line    0x0000000000012f2a      0x104 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/main.c.obj
- .debug_line    0x000000000001302e      0x11a CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
- .debug_line    0x0000000000013148      0x685 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
- .debug_line    0x00000000000137cd      0x41a CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
- .debug_line    0x0000000000013be7      0xdaf CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
- .debug_line    0x0000000000014996     0x3e12 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+ .debug_line    0x0000000000011b29      0x212 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_emlib_gpio_simple_init.c.obj
+ .debug_line    0x0000000000011d3b      0x7f2 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_event_handler.c.obj
+ .debug_line    0x000000000001252d      0x5c6 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_iostream_init_eusart_instances.c.obj
+ .debug_line    0x0000000000012af3      0x438 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_spidrv_init.c.obj
+ .debug_line    0x0000000000012f2b      0x104 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/main.c.obj
+ .debug_line    0x000000000001302f      0x11a CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
+ .debug_line    0x0000000000013149      0x685 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
+ .debug_line    0x00000000000137ce      0x41a CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+ .debug_line    0x0000000000013be8      0xdaf CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
+ .debug_line    0x0000000000014997     0x3e12 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
 
 .debug_str      0x0000000000000000     0xf3a6
  .debug_str     0x0000000000000000      0x643 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_control_gpio.c.obj

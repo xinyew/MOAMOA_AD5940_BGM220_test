@@ -1,21 +1,6 @@
-# SPI Primary Bare Metal Application
+# Testing code to control AD594X chip with BGM220 MCU
 
+The code in file `BGM220Port.c` is to port functions required by AD5940 library with BGM220 SDK. 
 
-This example project demonstrates use of the Serial Peripheral Interface in primary mode 
-in a bare metal configuration.
-
-
-Once the primary application is installed on a starter kit, the kit can be connected 
-via the 20-pint expansion header to a second kit which has the secondary application installed.
-
-
-The expansion header pins must be connected as follows:    
-Connect primary CS to secondary CS   
-Connect primary SCLK to secondary SCLK    
-Connect primary MOSI to secondary MOSI   
-Connect primary MISO to secondary MISO
-
-
-The user can then connect to the device via the VCOM serial connection. The primary and secondary
-devices will periodically exchange data, logging the exchanges over VCOM.
+Part of the porting code, GPIO interrupt initialization, is in `app.c`
 

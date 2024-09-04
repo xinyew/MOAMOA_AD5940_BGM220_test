@@ -1,0 +1,117 @@
+autogen/sl_iostream_handles.o: ../autogen/sl_iostream_handles.c \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/common/toolchain/inc/sl_gcc_preinclude.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/service/iostream/inc/sl_iostream.h \
+ /Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_component_catalog.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/common/inc/sl_enum.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/common/inc/sl_status.h \
+ ../autogen/sl_iostream_handles.h \
+ ../autogen/sl_iostream_init_eusart_instances.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/service/iostream/inc/sl_iostream_uart.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/em_device.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm220sc12wga.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/CMSIS/Core/Include/core_cm33.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/CMSIS/Core/Include/cmsis_version.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/CMSIS/Core/Include/cmsis_compiler.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/CMSIS/Core/Include/cmsis_gcc.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/CMSIS/Core/Include/mpu_armv8.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/system_bgm22.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_emu.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_cmu.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_hfxo.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_hfrco.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_fsrco.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_dpll.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_lfxo.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_lfrco.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_ulfrco.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_msc.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_icache.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_prs.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_gpio.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_gpio_port.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_ldma.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_ldmaxbar.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_timer.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_usart.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_burtc.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_i2c.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_syscfg.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_buram.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_gpcrc.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_dcdc.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_pdm.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_aes.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_smu.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_rtcc.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_letimer.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_iadc.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_wdog.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_eusart.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_cryptoacc.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_devinfo.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_prs_signals.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_dma_descriptor.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_ldmaxbar_defines.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/service/iostream/inc/sl_iostream.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/emdrv/dmadrv/inc/dmadrv.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/emdrv/common/inc/ecode.h \
+ /Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/emlib/inc/em_ldma.h \
+ /Users/xinye/SimplicityStudio/v5_workspace/test/config/dmadrv_config.h
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/common/toolchain/inc/sl_gcc_preinclude.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/service/iostream/inc/sl_iostream.h:
+/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_component_catalog.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/common/inc/sl_enum.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/common/inc/sl_status.h:
+../autogen/sl_iostream_handles.h:
+../autogen/sl_iostream_init_eusart_instances.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/service/iostream/inc/sl_iostream_uart.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/em_device.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm220sc12wga.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/CMSIS/Core/Include/core_cm33.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/CMSIS/Core/Include/cmsis_version.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/CMSIS/Core/Include/cmsis_compiler.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/CMSIS/Core/Include/cmsis_gcc.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/CMSIS/Core/Include/mpu_armv8.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/system_bgm22.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_emu.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_cmu.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_hfxo.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_hfrco.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_fsrco.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_dpll.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_lfxo.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_lfrco.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_ulfrco.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_msc.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_icache.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_prs.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_gpio.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_gpio_port.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_ldma.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_ldmaxbar.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_timer.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_usart.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_burtc.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_i2c.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_syscfg.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_buram.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_gpcrc.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_dcdc.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_pdm.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_aes.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_smu.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_rtcc.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_letimer.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_iadc.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_wdog.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_eusart.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_cryptoacc.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_devinfo.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_prs_signals.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_dma_descriptor.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/Device/SiliconLabs/BGM22/Include/bgm22_ldmaxbar_defines.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/service/iostream/inc/sl_iostream.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/emdrv/dmadrv/inc/dmadrv.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/emdrv/common/inc/ecode.h:
+/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2//platform/emlib/inc/em_ldma.h:
+/Users/xinye/SimplicityStudio/v5_workspace/test/config/dmadrv_config.h:

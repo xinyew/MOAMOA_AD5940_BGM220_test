@@ -1,4 +1,0 @@
-/Users/xinye/SimplicityStudio/v5_workspace/test/build/CMakeFiles/slc_test.dir
-/Users/xinye/SimplicityStudio/v5_workspace/test/build/CMakeFiles/test.dir
-/Users/xinye/SimplicityStudio/v5_workspace/test/build/CMakeFiles/edit_cache.dir
-/Users/xinye/SimplicityStudio/v5_workspace/test/build/CMakeFiles/rebuild_cache.dir

@@ -956,6 +956,14 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+ .rodata.Tmp_SPI_Test.str1.1
+                0x0000000000000000        0xa CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+ .text.Tmp_SPI_Test
+                0x0000000000000000       0x8c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+ .bss.tx_buffer
+                0x0000000000000000       0x40 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+ .bss.rx_buffer
+                0x0000000000000000       0x40 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
@@ -3259,7 +3267,7 @@ LOAD linker stubs
  .debug_line_str
                 0x00000000000001df       0xdb /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_arm_unorddf2.o)
 
-.debug_info     0x0000000000000000    0x43b84
+.debug_info     0x0000000000000000    0x43ccc
  .debug_info    0x0000000000000000      0x546 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_control_gpio.c.obj
  .debug_info    0x0000000000000546      0x2a9 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_init.c.obj
  .debug_info    0x00000000000007ef      0x479 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/driver/configuration_over_swo/src/sl_cos.c.obj
@@ -3304,13 +3312,13 @@ LOAD linker stubs
  .debug_info    0x000000000003688c     0x1549 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_iostream_init_eusart_instances.c.obj
  .debug_info    0x0000000000037dd5      0xb8f CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_spidrv_init.c.obj
  .debug_info    0x0000000000038964       0x89 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/main.c.obj
- .debug_info    0x00000000000389ed      0x13d CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
- .debug_info    0x0000000000038b2a     0x1cda CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
- .debug_info    0x000000000003a804      0xa43 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
- .debug_info    0x000000000003b247     0x1a0d CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
- .debug_info    0x000000000003cc54     0x6f30 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+ .debug_info    0x00000000000389ed      0x10c CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
+ .debug_info    0x0000000000038af9     0x1cda CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
+ .debug_info    0x000000000003a7d3      0xbbc CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+ .debug_info    0x000000000003b38f     0x1a0d CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
+ .debug_info    0x000000000003cd9c     0x6f30 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
 
-.debug_abbrev   0x0000000000000000     0x7a8f
+.debug_abbrev   0x0000000000000000     0x7a94
  .debug_abbrev  0x0000000000000000      0x19a CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_control_gpio.c.obj
  .debug_abbrev  0x000000000000019a      0x108 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_init.c.obj
  .debug_abbrev  0x00000000000002a2      0x20f CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/driver/configuration_over_swo/src/sl_cos.c.obj
@@ -3355,14 +3363,14 @@ LOAD linker stubs
  .debug_abbrev  0x00000000000066cc      0x297 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_iostream_init_eusart_instances.c.obj
  .debug_abbrev  0x0000000000006963      0x1c4 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_spidrv_init.c.obj
  .debug_abbrev  0x0000000000006b27       0x59 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/main.c.obj
- .debug_abbrev  0x0000000000006b80       0xfd CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
- .debug_abbrev  0x0000000000006c7d      0x2cd CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
- .debug_abbrev  0x0000000000006f4a      0x277 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
- .debug_abbrev  0x00000000000071c1      0x34d CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
- .debug_abbrev  0x000000000000750e      0x581 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+ .debug_abbrev  0x0000000000006b80       0xc9 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
+ .debug_abbrev  0x0000000000006c49      0x2cd CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
+ .debug_abbrev  0x0000000000006f16      0x2b0 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+ .debug_abbrev  0x00000000000071c6      0x34d CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
+ .debug_abbrev  0x0000000000007513      0x581 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
 
 .debug_loclists
-                0x0000000000000000     0xbbe7
+                0x0000000000000000     0xbc1f
  .debug_loclists
                 0x0000000000000000      0x10e CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_control_gpio.c.obj
  .debug_loclists
@@ -3430,13 +3438,13 @@ LOAD linker stubs
  .debug_loclists
                 0x00000000000082ea      0x108 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
  .debug_loclists
-                0x00000000000083f2       0x2c CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+                0x00000000000083f2       0x64 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
  .debug_loclists
-                0x000000000000841e      0x57f CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
+                0x0000000000008456      0x57f CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
  .debug_loclists
-                0x000000000000899d     0x324a CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x00000000000089d5     0x324a CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
 
-.debug_aranges  0x0000000000000000     0x1558
+.debug_aranges  0x0000000000000000     0x1560
  .debug_aranges
                 0x0000000000000000       0x70 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_control_gpio.c.obj
  .debug_aranges
@@ -3530,14 +3538,14 @@ LOAD linker stubs
  .debug_aranges
                 0x00000000000010b8       0x60 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
  .debug_aranges
-                0x0000000000001118       0x28 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+                0x0000000000001118       0x30 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
  .debug_aranges
-                0x0000000000001140       0x50 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
+                0x0000000000001148       0x50 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
  .debug_aranges
-                0x0000000000001190      0x3c8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x0000000000001198      0x3c8 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
 
 .debug_rnglists
-                0x0000000000000000     0x1742
+                0x0000000000000000     0x1761
  .debug_rnglists
                 0x0000000000000000       0x4f CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_control_gpio.c.obj
  .debug_rnglists
@@ -3631,13 +3639,13 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000000000011c2       0x43 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
  .debug_rnglists
-                0x0000000000001205       0x37 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+                0x0000000000001205       0x56 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
  .debug_rnglists
-                0x000000000000123c       0x83 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
+                0x000000000000125b       0x83 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
  .debug_rnglists
-                0x00000000000012bf      0x483 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+                0x00000000000012de      0x483 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
 
-.debug_line     0x0000000000000000    0x18790
+.debug_line     0x0000000000000000    0x18841
  .debug_line    0x0000000000000000      0x4cb CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_control_gpio.c.obj
  .debug_line    0x00000000000004cb      0x2ab CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_init.c.obj
  .debug_line    0x0000000000000776      0x4e7 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/driver/configuration_over_swo/src/sl_cos.c.obj
@@ -3682,13 +3690,13 @@ LOAD linker stubs
  .debug_line    0x000000000001252d      0x5c6 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_iostream_init_eusart_instances.c.obj
  .debug_line    0x0000000000012af3      0x438 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/autogen/sl_spidrv_init.c.obj
  .debug_line    0x0000000000012f2b      0x104 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/main.c.obj
- .debug_line    0x000000000001302f      0x11a CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
- .debug_line    0x0000000000013149      0x653 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
- .debug_line    0x000000000001379c      0x433 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
- .debug_line    0x0000000000013bcf      0xdaf CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
- .debug_line    0x000000000001497e     0x3e12 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+ .debug_line    0x000000000001302f      0x119 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
+ .debug_line    0x0000000000013148      0x653 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
+ .debug_line    0x000000000001379b      0x4e5 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+ .debug_line    0x0000000000013c80      0xdaf CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
+ .debug_line    0x0000000000014a2f     0x3e12 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
 
-.debug_str      0x0000000000000000     0xf360
+.debug_str      0x0000000000000000     0xf36d
  .debug_str     0x0000000000000000      0x643 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_control_gpio.c.obj
                                         0x6ad (size before relaxing)
  .debug_str     0x0000000000000643      0x487 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_init.c.obj
@@ -3777,18 +3785,18 @@ LOAD linker stubs
                                         0xc4f (size before relaxing)
  .debug_str     0x000000000000d253       0x3c CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/main.c.obj
                                         0x180 (size before relaxing)
- .debug_str     0x000000000000d28f       0x60 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
-                                        0x232 (size before relaxing)
- .debug_str     0x000000000000d2ef      0x1bd CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
+ .debug_str     0x000000000000d28f       0x56 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
+                                        0x216 (size before relaxing)
+ .debug_str     0x000000000000d2e5      0x1bd CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
                                        0x165e (size before relaxing)
- .debug_str     0x000000000000d4ac      0x57f CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
-                                        0x7ef (size before relaxing)
- .debug_str     0x000000000000da2b      0x7cd CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
+ .debug_str     0x000000000000d4a2      0x596 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+                                        0x859 (size before relaxing)
+ .debug_str     0x000000000000da38      0x7cd CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
                                         0xe1d (size before relaxing)
- .debug_str     0x000000000000e1f8     0x1168 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+ .debug_str     0x000000000000e205     0x1168 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
                                        0x1dd6 (size before relaxing)
 
-.debug_frame    0x0000000000000000     0x4534
+.debug_frame    0x0000000000000000     0x4550
  .debug_frame   0x0000000000000000      0x110 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_control_gpio.c.obj
  .debug_frame   0x0000000000000110       0x3c CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/board/src/sl_board_init.c.obj
  .debug_frame   0x000000000000014c       0x84 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/SDKs/gecko_sdk_2/hardware/driver/configuration_over_swo/src/sl_cos.c.obj
@@ -3835,50 +3843,50 @@ LOAD linker stubs
  .debug_frame   0x0000000000002980       0x28 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/main.c.obj
  .debug_frame   0x00000000000029a8       0x30 CMakeFiles/slc_test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/spidrv_master_baremetal.c.obj
  .debug_frame   0x00000000000029d8       0xb0 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/BGM220Port.c.obj
- .debug_frame   0x0000000000002a88       0x44 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
- .debug_frame   0x0000000000002acc      0x114 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
- .debug_frame   0x0000000000002be0      0xcc4 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
- .debug_frame   0x00000000000038a4       0xac /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x0000000000003950       0x50 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x00000000000039a0       0xc4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x0000000000003a64       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_arm_truncdfsf2.o)
- .debug_frame   0x0000000000003a88       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000000000003ab4       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
- .debug_frame   0x0000000000003aec       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-exit.o)
- .debug_frame   0x0000000000003b14       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-setvbuf.o)
- .debug_frame   0x0000000000003b4c      0x144 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-findfp.o)
- .debug_frame   0x0000000000003c90       0x34 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-fwalk.o)
- .debug_frame   0x0000000000003cc4       0x58 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-makebuf.o)
- .debug_frame   0x0000000000003d1c       0x6c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-printf.o)
- .debug_frame   0x0000000000003d88       0x3c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-puts.o)
- .debug_frame   0x0000000000003dc4       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-memset.o)
- .debug_frame   0x0000000000003de4       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-fstatr.o)
- .debug_frame   0x0000000000003e10       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-isattyr.o)
- .debug_frame   0x0000000000003e3c       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-init.o)
- .debug_frame   0x0000000000003e68       0xb0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-lock.o)
- .debug_frame   0x0000000000003f18       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
- .debug_frame   0x0000000000003f40       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-freer.o)
- .debug_frame   0x0000000000003f78       0xa8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
- .debug_frame   0x0000000000004020       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-malloc.o)
- .debug_frame   0x0000000000004050       0x4c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-mallocr.o)
- .debug_frame   0x000000000000409c       0x60 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_frame   0x00000000000040fc       0x5c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-fflush.o)
- .debug_frame   0x0000000000004158       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-mlock.o)
- .debug_frame   0x0000000000004188       0x88 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-stdio.o)
- .debug_frame   0x0000000000004210       0x40 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-wbuf.o)
- .debug_frame   0x0000000000004250       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-wsetup.o)
- .debug_frame   0x000000000000427c       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-closer.o)
- .debug_frame   0x00000000000042a8       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-reent.o)
- .debug_frame   0x00000000000042e0       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-lseekr.o)
- .debug_frame   0x000000000000430c       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-readr.o)
- .debug_frame   0x0000000000004338       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-sbrkr.o)
- .debug_frame   0x0000000000004364       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-writer.o)
- .debug_frame   0x0000000000004390       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-memchr-stub.o)
- .debug_frame   0x00000000000043b8       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libm.a(libm_a-w_atan2.o)
- .debug_frame   0x00000000000043d8       0x44 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libm.a(libm_a-e_atan2.o)
- .debug_frame   0x000000000000441c       0x48 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libm.a(libm_a-w_sqrt.o)
- .debug_frame   0x0000000000004464       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libm.a(libm_a-s_atan.o)
- .debug_frame   0x000000000000449c       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libm.a(libm_a-s_fabs.o)
- .debug_frame   0x00000000000044bc       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libm.a(libm_a-e_sqrt.o)
- .debug_frame   0x00000000000044f4       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_arm_unorddf2.o)
- .debug_frame   0x0000000000004514       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-errno.o)
+ .debug_frame   0x0000000000002a88       0x60 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/AD5940Main.c.obj
+ .debug_frame   0x0000000000002ae8      0x114 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/SqrWaveVoltammetry.c.obj
+ .debug_frame   0x0000000000002bfc      0xcc4 CMakeFiles/test.dir/default_config/Users/xinye/SimplicityStudio/v5_workspace/test/ad5940lib/ad5940.c.obj
+ .debug_frame   0x00000000000038c0       0xac /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x000000000000396c       0x50 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00000000000039bc       0xc4 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x0000000000003a80       0x24 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000003aa4       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000003ad0       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000000000003b08       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-exit.o)
+ .debug_frame   0x0000000000003b30       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-setvbuf.o)
+ .debug_frame   0x0000000000003b68      0x144 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x0000000000003cac       0x34 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-fwalk.o)
+ .debug_frame   0x0000000000003ce0       0x58 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-makebuf.o)
+ .debug_frame   0x0000000000003d38       0x6c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-printf.o)
+ .debug_frame   0x0000000000003da4       0x3c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-puts.o)
+ .debug_frame   0x0000000000003de0       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x0000000000003e00       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-fstatr.o)
+ .debug_frame   0x0000000000003e2c       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-isattyr.o)
+ .debug_frame   0x0000000000003e58       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-init.o)
+ .debug_frame   0x0000000000003e84       0xb0 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-lock.o)
+ .debug_frame   0x0000000000003f34       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+ .debug_frame   0x0000000000003f5c       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-freer.o)
+ .debug_frame   0x0000000000003f94       0xa8 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+ .debug_frame   0x000000000000403c       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-malloc.o)
+ .debug_frame   0x000000000000406c       0x4c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x00000000000040b8       0x60 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000004118       0x5c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-fflush.o)
+ .debug_frame   0x0000000000004174       0x30 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-mlock.o)
+ .debug_frame   0x00000000000041a4       0x88 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-stdio.o)
+ .debug_frame   0x000000000000422c       0x40 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-wbuf.o)
+ .debug_frame   0x000000000000426c       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-wsetup.o)
+ .debug_frame   0x0000000000004298       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-closer.o)
+ .debug_frame   0x00000000000042c4       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-reent.o)
+ .debug_frame   0x00000000000042fc       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-lseekr.o)
+ .debug_frame   0x0000000000004328       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-readr.o)
+ .debug_frame   0x0000000000004354       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x0000000000004380       0x2c /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-writer.o)
+ .debug_frame   0x00000000000043ac       0x28 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-memchr-stub.o)
+ .debug_frame   0x00000000000043d4       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libm.a(libm_a-w_atan2.o)
+ .debug_frame   0x00000000000043f4       0x44 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libm.a(libm_a-e_atan2.o)
+ .debug_frame   0x0000000000004438       0x48 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libm.a(libm_a-w_sqrt.o)
+ .debug_frame   0x0000000000004480       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libm.a(libm_a-s_atan.o)
+ .debug_frame   0x00000000000044b8       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libm.a(libm_a-s_fabs.o)
+ .debug_frame   0x00000000000044d8       0x38 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libm.a(libm_a-e_sqrt.o)
+ .debug_frame   0x0000000000004510       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v8-m.main+fp/hard/libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x0000000000004530       0x20 /Applications/Simplicity Studio.app/Contents/Eclipse/developer/toolchains/gnu_arm/12.2.rel1_2023.7/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc_nano.a(libc_a-errno.o)

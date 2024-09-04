@@ -143,9 +143,42 @@ void AD5940RampStructInit(void)
 	pRampCfg->bRampOneDir = bTRUE;//bTRUE;			/* Only measure ramp in one direction */
 }
 
+#define APP_BUFFER_SIZE             64
+static char rx_buffer[APP_BUFFER_SIZE];
+static char tx_buffer[APP_BUFFER_SIZE];
+
+void Tmp_SPI_Test(void) {
+  for (int i = 0; i < APP_BUFFER_SIZE; i++) {
+    tx_buffer[i] = 0;
+    rx_buffer[i] = 0;
+  }
+  // tx_buffer[1] = 0x
+  //sprintf(tx_buffer, "%s", 0x04);
+  tx_buffer[0] = 0x20;
+  tx_buffer[1] = 0x04;
+  tx_buffer[2] = 0x04;
+  AD5940_CsClr();
+  AD5940_ReadWriteNBytes(tx_buffer, rx_buffer, 3);
+  AD5940_CsSet();
+
+  AD5940_CsClr();
+  tx_buffer[0] = 0x6D;
+  tx_buffer[1] = 0xFF;
+  tx_buffer[2] = 0xFF;
+  tx_buffer[3] = 0xFF;
+  AD5940_CsClr();
+  AD5940_ReadWriteNBytes(tx_buffer, rx_buffer, 4);
+  AD5940_CsSet();
+  for (int i = 0; i < 4; i++) {
+    printf("%d: 0x%x\n", i, rx_buffer[i]);
+  }
+}
+
 void AD5940_Main(void)
 {
   uint32_t temp;  
+  // Tmp_SPI_Test();
+  // return;
   AD5940PlatformCfg();
   AD5940RampStructInit();
 	

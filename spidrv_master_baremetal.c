@@ -28,22 +28,7 @@
 // use SPI handle for EXP header (configured in project settings)
 // #define SPI_HANDLE                  sl_spidrv_exp_handle
 
-// size of transmission and reception buffers
-#define APP_BUFFER_SIZE             16
 
-/*******************************************************************************
- ***************************  LOCAL VARIABLES   ********************************
- ******************************************************************************/
-
-// Flag to signal that transfer is complete
-// static volatile bool transfer_complete = false;
-
-// Data counter
-static int counter = 0;
-
-// Transmission and reception buffers
-static char rx_buffer[APP_BUFFER_SIZE];
-static char tx_buffer[APP_BUFFER_SIZE];
 
 /*******************************************************************************
  *********************   LOCAL FUNCTION PROTOTYPES   ***************************

@@ -48,7 +48,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-default_config-95316034e73a63711c0f.json",
+					"jsonFile" : "target-test-default_config-e7403d9ed28e7564a83f.json",
 					"name" : "test",
 					"projectIndex" : 0
 				}
@@ -64,6 +64,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 5
 	}
 }

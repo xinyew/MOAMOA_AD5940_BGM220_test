@@ -109,14 +109,6 @@
 					"fragment" : "-std=c17"
 				},
 				{
-					"backtrace" : 9,
-					"fragment" : "-u"
-				},
-				{
-					"backtrace" : 9,
-					"fragment" : "_printf_float"
-				},
-				{
 					"backtrace" : 3,
 					"fragment" : "-mcpu=cortex-m33"
 				},

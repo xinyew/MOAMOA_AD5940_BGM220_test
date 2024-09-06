@@ -8,6 +8,8 @@
         "sl_spidrv_exp_config.h": "c",
         "spidrv.h": "c",
         "sl_emlib_gpio_init_cs_config.h": "c",
-        "sl_emlib_gpio_init_ad5940_int_config.h": "c"
+        "sl_emlib_gpio_init_ad5940_int_config.h": "c",
+        "sl_system_kernel.h": "c",
+        "sl_system_process_action.h": "c"
     }
 }
